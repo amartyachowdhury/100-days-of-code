@@ -15,3 +15,5 @@ env_for_pycharm.txt
 .venv/
 venv/
 words_to_learn.csv
+flight_cache*
+pyrightconfig.json
