@@ -39,3 +39,4 @@ Explore the projects I've built during my coding journey. Each day includes a we
 - [Day 37 - Habit Tracker](https://amartyachowdhury.github.io/100-days-of-code/Day%2037%20-%20Habit%20Tracker/)
 - [Day 38 - Workout Tracker](https://amartyachowdhury.github.io/100-days-of-code/Day%2038%20-%20Workout%20Tracker/)
 - [Day 39 - Flight Deal Finder](https://amartyachowdhury.github.io/100-days-of-code/Day%2039%20-%20Flight%20Deal%20Finder/)
+- [Day 40 - Flight Club](https://amartyachowdhury.github.io/100-days-of-code/Day%2040%20-%20Flight%20Club/)

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flight Club</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Flight Club</h1>
+<p class="intro">
+  Search direct and indirect flights for club members. When a deal is found, WhatsApp and email alerts would be sent to your customer list.
+</p>
+
+<div class="panel">
+  <form id="searchForm" class="search-form">
+    <div class="field">
+      <label for="originIata">Origin Airport (IATA)</label>
+      <input type="text" id="originIata" value="LHR" maxlength="3">
+    </div>
+    <div class="field">
+      <label for="serpApiKey">SerpAPI Key</label>
+      <input type="password" id="serpApiKey" placeholder="Enter your SerpAPI key">
+    </div>
+
+    <details class="sheety-details">
+      <summary>Optional: load destinations and members from Sheety</summary>
+      <div class="field">
+        <label for="sheetyPricesEndpoint">Sheety Prices Endpoint</label>
+        <input type="url" id="sheetyPricesEndpoint" placeholder="https://api.sheety.co/.../prices">
+      </div>
+      <div class="field">
+        <label for="sheetyUsersEndpoint">Sheety Users Endpoint</label>
+        <input type="url" id="sheetyUsersEndpoint" placeholder="https://api.sheety.co/.../users">
+      </div>
+      <div class="field">
+        <label for="sheetyUsername">Sheety Username</label>
+        <input type="text" id="sheetyUsername">
+      </div>
+      <div class="field">
+        <label for="sheetyPassword">Sheety Password</label>
+        <input type="password" id="sheetyPassword">
+      </div>
+      <div class="field">
+        <label for="emailField">Customer Email Column</label>
+        <input type="text" id="emailField" value="whatIsYourEmail?">
+      </div>
+    </details>
+
+    <button type="submit">Search Club Deals</button>
+  </form>
+
+  <p id="status" class="status" aria-live="polite">Enter your origin airport and SerpAPI key to search for club deals.</p>
+
+  <section id="results" class="results" hidden>
+    <div class="result-card">
+      <h2>Flight Results</h2>
+      <div id="resultsTable" class="results-table"></div>
+    </div>
+    <div id="alerts" class="alerts" hidden>
+      <h2>Deal Alerts</h2>
+      <div id="alertList" class="alert-list"></div>
+    </div>
+    <div id="emailPreview" class="result-card" hidden>
+      <h2>Email Recipients</h2>
+      <ul id="emailList" class="email-list"></ul>
+    </div>
+  </section>
+</div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
