@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background: linear-gradient(180deg, #1a1428 0%, #2d2240 100%);
+    color: #f5f5f5;
+    text-align: center;
+}
+
+.intro {
+    font-size: 1.05em;
+    margin-bottom: 24px;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ddd0f0;
+}
+
+.panel {
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.workout-form {
+    display: grid;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 16px;
+}
+
+.field label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ddd0f0;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="url"],
+select,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 12px;
+    border: 1px solid #6a4f9b;
+    border-radius: 6px;
+    background-color: #241a35;
+    color: #fff;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 84px;
+}
+
+button {
+    font-size: 1rem;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #8e5cff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a67dff;
+}
+
+.status {
+    min-height: 1.5rem;
+    margin: 0 0 20px;
+    color: #ddd0f0;
+}
+
+.results {
+    display: grid;
+    gap: 16px;
+}
+
+.result-card {
+    padding: 16px;
+    border-radius: 8px;
+    background-color: rgba(20, 14, 32, 0.85);
+    border: 1px solid #5a3f86;
+}
+
+.result-card h2 {
+    margin: 0 0 12px;
+    font-size: 1.1rem;
+}
+
+.exercise-list {
+    margin: 0;
+    padding-left: 20px;
+    color: #ddd0f0;
+}
+
+.exercise-list li {
+    margin-bottom: 10px;
+}
+
+.sheet-preview {
+    display: grid;
+    gap: 12px;
+}
+
+.sheet-row {
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #241a35;
+    color: #ece4ff;
+    font-family: Consolas, Monaco, monospace;
+    font-size: 0.92rem;
+    white-space: pre-wrap;
+}
+
+.notification {
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #241a35;
+    border: 2px solid #8e5cff;
+    text-align: center;
+}
+
+.notification p {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #c9b3ff;
+}

@@ -10,6 +10,7 @@ __pycache__/
 *.ipynb_checkpoints
 .env
 *.env
+env_for_pycharm.txt
 *.log
 .venv/
 venv/

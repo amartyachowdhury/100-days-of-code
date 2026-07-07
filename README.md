@@ -37,3 +37,4 @@ Explore the projects I've built during my coding journey. Each day includes a we
 - [Day 35 - Rain Alert](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2035%20-%20Rain%20Alert/)
 - [Day 36 - Stock Trading News Alert](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2036%20-%20Stock%20Trading%20News%20Alert/)
 - [Day 37 - Habit Tracker](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2037%20-%20Habit%20Tracker/)
+- [Day 38 - Workout Tracker](https://amartyachowdhury.github.io/100-Days-of-Code/Day%2038%20-%20Workout%20Tracker/)
